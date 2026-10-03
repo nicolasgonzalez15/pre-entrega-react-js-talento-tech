@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg-primary: #FAFAFA;        /* Blanco Puro */
+  --bg-secondary: #F4F4F5;      /* Gris Humo Suave */
+  --text-main: #09090B;         /* Negro Grafito */
+  --color-accent: #2563EB;      /* Azul Cobalto */
+  --color-accent-hover: #1D4ED8; /* Azul Oscuro */
+  --color-secondary: #71717A;   /* Gris Neutro */
+  --font-family: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  line-height: 1.5;
+}

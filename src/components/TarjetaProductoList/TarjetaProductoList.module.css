@@ -1,0 +1,45 @@
+.productosContainer {
+  background-color: var(--bg-secondary);
+  padding: 1.5rem 1rem;
+}
+
+.titulo {
+  padding: 2rem 2rem;
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-size: 1.75rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.productosGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;  
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: var(--bg-secondary);
+}
+
+.sinProductos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  margin: 0;
+  padding: 2rem 1rem;
+  color: var(--color-secondary);
+  font-family: var(--font-family);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .productosGrid {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    padding: 1.5rem 1rem;
+  }
+}

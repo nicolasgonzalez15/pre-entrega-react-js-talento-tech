@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "nombre": "Teclado Mecánico RGB Switch Red",
+    "tipo": "Perifericos",
+    "precio": 85000,
+    "precioOferta": 69990,
+    "stock":15,
+    "imagen": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&q=80&w=500",
+    "descripcion": "Teclado mecánico gamer con retroiluminación RGB y switches rojos silenciosos."
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Inalámbrico Ergonómico 16000 DPI",
+    "tipo": "Perifericos",
+    "precio": 45000,
+    "stock":10,
+    "imagen": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&q=80&w=500",
+    "descripcion": "Mouse óptico inalámbrico de alta precisión con botones programables."
+  },
+  {
+    "id": 3,
+    "nombre": "Auriculares Gamer 7.1 Surround",
+    "tipo": "Audio",
+    "precio": 68000,
+    "precioOferta": 54990,
+    "stock":25,
+    "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=500",
+    "descripcion": "Auriculares over-ear con micrófono con cancelación de ruido y sonido envolvente."
+  },
+  {
+    "id": 4,
+    "nombre": "Monitor Gaming 24' IPS 144Hz",
+    "tipo": "Monitores",
+    "precio": 290000,
+    "stock":0,
+    "imagen": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80&w=500",
+    "descripcion": "Monitor Full HD con tiempo de respuesta de 1ms y tecnología FreeSync."
+  }
+]

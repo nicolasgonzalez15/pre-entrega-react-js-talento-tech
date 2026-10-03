@@ -1,0 +1,93 @@
+.buscador {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 1rem;
+  width:90%;
+}
+
+.buscador form {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: min(100%, 760px);
+}
+
+.buscador input {
+  flex: 1;
+  min-width: 0;
+  height: 44px;
+  padding: 0 1rem;
+  border: 1px solid var(--bg-secondary);
+  border-radius: 8px;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.buscador input::placeholder {
+  color: var(--color-secondary);
+}
+
+.buscador input:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgb(37 99 235 / 15%);
+}
+
+.btnActualizar,
+.btnLimpiar {
+  flex: 0 0 112px;
+  height: 44px;
+  padding: 0 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-family: var(--font-family);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.btnActualizar {
+  background-color: var(--color-accent);
+  color: var(--bg-primary);
+  box-shadow: 0 4px 10px rgb(37 99 235 / 20%);
+}
+
+.btnActualizar:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-1px);
+}
+
+.btnLimpiar {
+  border-color: var(--bg-secondary);
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+}
+
+.btnLimpiar:hover {
+  border-color: var(--color-secondary);
+  background-color: var(--bg-secondary);
+}
+
+.btnActualizar:active,
+.btnLimpiar:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+  .buscador form {
+    flex-wrap: wrap;
+  }
+
+  .buscador input {
+    flex-basis: 100%;
+  }
+
+  .btnActualizar,
+  .btnLimpiar {
+    flex: 1;
+  }
+}

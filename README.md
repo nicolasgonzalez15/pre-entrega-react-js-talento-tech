@@ -8,11 +8,23 @@ Sitio demo
 Construir una aplicación que contenga (1ra parte):
 * Header - Con título y subtitulo personalizado
 * Layout - Con contenido de componentes de Main
-* Productos - Que permita recuperar productos para la venta
+* Productos 
+   * Buscador para filtrar productos recuperados
+   * Que permita recuperar productos para la venta
 * Formulario de Alta de producto - Para agregar nuevos productos a mi sistema
 * Nosotros - Con información del equipo del sitio
 * Footer - Con mensaje de footer personalizado
 
+## Propósitos
+* Componetizar funciones básicas (Contador, Favoritos)
+* Uso de useState para poder maneja estados
+* Uso de useEffect para poder cargar datos de APIs o JSON
+* Reutilización de componentes existentes
+* Separar código de estilos por componente
+* Patrón Contenedor - Lista - Item (Vistas productos / nosotros)
+* Patrón Presentacional - Container (Formularios)
+
+## Tecnologías utilizadas
 * React JS
 * Javascript
 * VITE

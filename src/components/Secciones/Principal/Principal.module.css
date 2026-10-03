@@ -1,0 +1,51 @@
+.principal {
+    position: relative;
+    isolation: isolate;
+    min-height: 360px;
+    padding: 5rem 2rem;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    color: var(--bg-primary);
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=85&w=1600');
+    background-position: center;
+    background-size: cover;
+}
+
+.principal::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgba(9, 9, 11, 0.7);
+}
+
+.principal h1,
+.principal p {
+    position: relative;
+    z-index: 1;
+}
+
+.principal h1 {
+    max-width: 800px;
+    margin-bottom: 0.75rem;
+    color: var(--bg-primary);
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: 0.04em;
+}
+
+.principal p {
+    max-width: 620px;
+    color: var(--bg-secondary);
+    font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+@media (max-width: 600px) {
+    .principal {
+        min-height: 300px;
+        padding: 4rem 1.25rem;
+    }
+}

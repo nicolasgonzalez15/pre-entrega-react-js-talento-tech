@@ -1,0 +1,53 @@
+.tarjetaContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 280px;
+    background-color: #E0F7FA;
+    border: 1px solid #B2EBF2;
+    border-radius: 8px;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.tarjetaContacto:hover,
+.tarjetaContacto:focus-within {
+  transform: translateY(-4px);
+  border-color: #4DD0E1;
+  box-shadow: 0 10px 24px rgba(8, 145, 178, 0.16);
+}
+
+.imgContacto{
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  background-color: var(--bg-primary);
+}
+
+.contenidoContacto {
+  text-align: center;
+}
+
+.nombreContacto {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.puestoContacto {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.bioContacto {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}

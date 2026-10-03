@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Nicolás González",
+    "puesto": "CEO",
+    "bio": "Fundador de TECHMARKET en 2010",
+    "imagen": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&h=300&q=80"
+  },
+  {
+    "id": 2,
+    "nombre": "Julieta Gómez",
+    "puesto": "Desarrolladora",
+    "bio": "Construyendo interfaces robustas y confiables",
+    "imagen": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&h=300&q=80"
+  },
+  {
+    "id": 3,
+    "nombre": "Matias Heis",
+    "puesto": "Ventas",
+    "bio": "Ofreciendo soluciones a diversos clientes",
+    "imagen": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=300&h=300&q=80"
+  }
+]

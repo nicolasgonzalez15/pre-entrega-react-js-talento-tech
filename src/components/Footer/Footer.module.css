@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--text-main);
+  color: var(--bg-primary);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+.subtext {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
