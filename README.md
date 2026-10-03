@@ -2,7 +2,7 @@
 Proyecto de React JS utilizando VITE como gestor de dependencias / Javascript y CSS / Sitio de E-commerce de productos tecnológicos
 
 ## Demo
-Sitio demo
+[Techmarket Demo](https://techmarket-ar.netlify.app/)
 
 ## Propósito del proyecto
 Construir una aplicación que contenga (1ra parte):
